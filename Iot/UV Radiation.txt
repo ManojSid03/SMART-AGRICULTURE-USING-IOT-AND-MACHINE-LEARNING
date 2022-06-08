@@ -1,0 +1,7 @@
+int getuvradiationvalue()
+{
+  sensorvalue=analogRead(36);
+  Serial.println(sensorvalue);
+  delay(1000);
+  return int(sensorvalue);
+}

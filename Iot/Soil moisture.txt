@@ -1,0 +1,7 @@
+int getsoilmoisturevalue() {
+  msvalue = analogRead(msensor);
+  Serial.println(msvalue);
+  delay(1000);
+  return int(msvalue);
+}
+
